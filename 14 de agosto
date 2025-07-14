@@ -1,0 +1,58 @@
+##14 de agosto, aula sobre posicionamento e formas 
+html : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class = "mae"> </div>
+    <div class = "mae">
+        <div class = 'circulo1'> </div>
+        <div class = 'circulo2'> </div>
+        <div class = 'circulo3'> </div>
+    </div>
+    <div class = "mae"> </div>
+    <div class = "mae"> </div>
+    <div class = "mae"> </div>
+</body>
+</html>
+style : 
+*{ 
+    padding : 0px; 
+    margin :0px;  
+}
+
+.mae{
+    border: 1px solid red; 
+    height:300px;
+    width: 600px; 
+    background-color: beige;
+}
+
+
+.circulo1 , .circulo2 , .circulo3  {
+    border: 1px solid pink; 
+    height:100px;
+    width: 100px; 
+    position: sticky;
+    border-radius: 50%;
+    top:50px; 
+    background-color: chocolate;
+}
+
+.circulo1 {
+    left : 25px;
+}     
+.circulo2 {
+    left : 135px;
+    
+}
+.circulo3 {
+    left : 255px; 
+    position: relative;
+    
+}
